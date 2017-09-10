@@ -33,7 +33,6 @@ printf "scale=4000; 4*a(1)" | bc -l > test_files/large_non_ascii.input  && print
 
 
 ## Generates 12 random non-ascii files for testing
-## base idea from https://stackoverflow.com/questions/3598622/is-there-a-command-to-write-random-garbage-bytes-into-a-file
 
 max=12
 for i in `seq 1 $max`
