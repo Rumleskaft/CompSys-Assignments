@@ -25,20 +25,20 @@ printf "scale=4000; 4*a(1)" | bc -l > test_files/large_ascii.input ## generates 
 max=11
 for i in `seq 0 $max`
 do 
-	filename="test_files/random_ascii_${i}.input"
+  filename="test_files/random_ascii_${i}.input"
   base64 /dev/urandom | head -c $(( 5**i )) > $filename # generates 12 random ascii files
 done
 
 ## Data files (Non-ascii files)
 printf "Hello,\x00World!\n" > test_files/data.input ## file containing a char outside our ascii-text definition
-printf "scale=4000; 4*a(1)" | bc -l > test_files/large_ascii.input  && printf "\372 ">> test_files/large_non_ascii.input ## adds the "u acute" character to the end of a large ascii file
+printf "scale=4000; 4*a(1)" | bc -l > test_files/large_non_ascii.input  && printf "\372 ">> test_files/large_non_ascii.input ## adds the "u acute" character to the end of a large ascii file
 
 
 ## Generates 12 random non-ascii files for testing
 ## base idea from https://stackoverflow.com/questions/3598622/is-there-a-command-to-write-random-garbage-bytes-into-a-file
 
-max=11
-for i in `seq 0 $max`
+max=12
+for i in `seq 1 $max`
 do 
 	filename="test_files/random_non_ascii_${i}.input"
 	shred -s $(( 5**i )) -> $filename # generates 12 random non-ascii files

@@ -29,9 +29,8 @@ int checkFile(char *path){
 
 	// get file size
 	fseek(f, 0, SEEK_END); // seek to end
-	int file_size = (int) ftell(f); 
-	// seek back to beginning
-	fseek(f, 0, SEEK_SET); // seek to end
+	int file_size = (int) ftell(f); // get file size
+	fseek(f, 0, SEEK_SET); // seek back to beginning
 
 	// check IO error
 	checkError(path);
@@ -40,7 +39,7 @@ int checkFile(char *path){
 	char *content = (char *) malloc(file_size);	
 
 	// read file
-	int read_size = (int) fread(content, 1, file_size, f);
+	fread(content, 1, file_size, f);
 	// check IO error
 	checkError(path);
 
@@ -53,7 +52,7 @@ int checkFile(char *path){
 	// check if file is of type data
 
 	int bool = 0;
-		for(int i=0; i<read_size; i++){
+		for(int i=0; i<file_size; i++){
 			if( !((7 <= (int)content[i]) && ((int)content[i] <= 13)) && !((int)content[i] == 27) && !((32 <= (int)content	[i]) && ((int)content[i] <= 126))
 			){
 				bool = 1;				
