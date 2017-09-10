@@ -53,4 +53,4 @@ dkms.conf
 
 
 #Remove test files
-/test_files
+test_files/
