@@ -19,8 +19,6 @@ printf "Hello, World!" > test_files/ascii2.input ## another ascii file, with nl 
 printf "scale=4000; 4*a(1)" | bc -l > test_files/large_ascii.input ## generates a file containing pi with an amount of digits equal to the "scale" value (ascii)
 
 ## Generates 12 random ascii files for testing (alphanumeric chars only)
-## base idea from https://superuser.com/questions/692175/how-to-create-a-random-txthuman-readable-text-like-ascii-file-in-linux 
-
 
 max=11
 for i in `seq 0 $max`
