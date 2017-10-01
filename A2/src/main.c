@@ -11,11 +11,12 @@
 #define HLT 0x0
 #define NOP 0x1
 #define MOV_RtoR 0x2
+#define CMOV 0x2v
 #define MOV_ItoR 0x3
 #define MOV_RtoM 0x4
 #define MOV_MtoR 0x5
-#define ARITHMETIC 0x6
-#define JCC 0x7
+#define ARITHMETIC 0x6z
+#define JCC 0x7c
 #define CALL 0x8
 #define RET 0x9
 #define PUSH 0xA
@@ -76,7 +77,8 @@ int main(int argc, char* argv[]) {
 	// for them, but they are put here on purpose to make your task easier.
         val major_op = pick_bits(4,4, inst_word);
         val minor_op = pick_bits(0,4, inst_word);
-        bool is_move = is(MOV_RtoR, major_op);
+	
+        bool is_move = or(is(MOV_RtoR, major_op);
         bool has_regs = is_move;
         val size = or( use_if(!has_regs, from_int(1)),
                        use_if(has_regs, from_int(2)));
@@ -92,12 +94,28 @@ int main(int argc, char* argv[]) {
         // execute - for now, this is just reading out operands from their registers
 	// For A2 you'll need to add components that implement the more complex
 	// instructions. It's the place to use the ALU and read from memory.
+	
+	bool isArith = or( is(ADD ,minor_op),
+			 is(SUB ,minor_op), 			
+			 is(AND ,minor_op), 
+			 is(XOR ,minor_op),
+			 is(CMP ,minor_op));
+	val execute_op = or( use_if(arith, minor_op),
+                       use_if(!arith, CMP);
+	val eval_op = or( use_if(!arith, minor_op),
+                       use_if(arith, ALWAYS);
+
+	// alu operations encoding falls within conditions, so we can still use minor_op as the 	logical opcode even if its not an arithmetic expression
+
+	alu_execute_result = alu_execute(execute_op ,reg_a, reg_b);
+	eval_condition(alu_execute_result.cc, eval_op);
+
         val op_a = memory_read(regs, 0, reg_a, true);
         val op_b = memory_read(regs, 1, reg_b, true);
 
         // select result for register update
-	// For A2 there'll be a lot more to choos from, once you've added use of
-	// the ALU and loading from memory to the code above.
+	// For A2 there'll be a lot more to choose from, once you've added use of
+	// the ALU and loading from memory to the cvqode above.
         val datapath_result = op_a;
 
         // pick result value and target register

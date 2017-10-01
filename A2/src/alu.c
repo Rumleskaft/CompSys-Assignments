@@ -39,4 +39,3 @@ alu_execute_result alu_execute(val op, val op_a, val op_b) {
     result.result = res;
     return result;
 }
-
