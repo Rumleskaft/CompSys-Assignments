@@ -1,0 +1,5 @@
+// Testing HALT
+nop
+movq %r11, %r12
+hlt
+
