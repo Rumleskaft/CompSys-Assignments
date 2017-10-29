@@ -1,0 +1,261 @@
+newmatmult sim default 10
+
+Caches and predictors:
+
+    Branch predictions: 1110   hits: 1096   hitrate: 0.987387
+    Return predictions: 1   hits: 1   hitrate: 1.000000
+    Cache: ICache
+        Reads: 13049,    Writes 0
+        Hits: 13044,    Hitrate: 0.999617
+        Average latency: 3.207525
+    Cache: DCache
+        Reads: 2102,    Writes 1101
+        Hits: 3176,    Hitrate: 0.991570
+        Average latency: 15.293530
+    Cache: L2-Cache
+        Reads: 32,    Writes 0
+        Hits: 0,    Hitrate: 0.000000
+        Average latency: 109.000000
+
+OOO-Resources:
+
+    Resource: ROB: use 13049   avg 36.591616
+    Resource: scheduler: use 13049   avg 10.257644
+    Resource: cache-q: use 3203   avg 18.231033
+
+Timing info:
+
+    Instructions: 13049   cycles (last value): 5572
+    IPC: 2.341888   CPI: 0.427006
+newmatmult sim default 10
+
+Caches and predictors:
+
+    Branch predictions: 3615   hits: 3374   hitrate: 0.933333
+    Return predictions: 1   hits: 1   hitrate: 1.000000
+    Cache: ICache
+        Reads: 42819,    Writes 0
+        Hits: 42814,    Hitrate: 0.999883
+        Average latency: 3.063243
+    Cache: DCache
+        Reads: 6977,    Writes 3601
+        Hits: 10520,    Hitrate: 0.994517
+        Average latency: 13.887774
+    Cache: L2-Cache
+        Reads: 63,    Writes 0
+        Hits: 0,    Hitrate: 0.000000
+        Average latency: 109.000000
+
+OOO-Resources:
+
+    Resource: ROB: use 42819   avg 31.191177
+    Resource: scheduler: use 42819   avg 9.084705
+    Resource: cache-q: use 10578   avg 15.708262
+
+Timing info:
+
+    Instructions: 42819   cycles (last value): 18122
+    IPC: 2.362819   CPI: 0.423223
+newmatmult sim default 10
+
+Caches and predictors:
+
+    Branch predictions: 8420   hits: 7999   hitrate: 0.950000
+    Return predictions: 1   hits: 1   hitrate: 1.000000
+    Cache: ICache
+        Reads: 100089,    Writes 0
+        Hits: 100084,    Hitrate: 0.999950
+        Average latency: 3.027056
+    Cache: DCache
+        Reads: 16402,    Writes 8401
+        Hits: 24701,    Hitrate: 0.995888
+        Average latency: 13.015181
+    Cache: L2-Cache
+        Reads: 107,    Writes 0
+        Hits: 0,    Hitrate: 0.000000
+        Average latency: 109.000000
+
+OOO-Resources:
+
+    Resource: ROB: use 100089   avg 29.751581
+    Resource: scheduler: use 100089   avg 8.776579
+    Resource: cache-q: use 24803   avg 14.991614
+
+Timing info:
+
+    Instructions: 100089   cycles (last value): 39906
+    IPC: 2.508119   CPI: 0.398705
+newmatmult sim default 10
+
+Caches and predictors:
+
+    Branch predictions: 16275   hits: 15624   hitrate: 0.960000
+    Return predictions: 1   hits: 1   hitrate: 1.000000
+    Cache: ICache
+        Reads: 193859,    Writes 0
+        Hits: 193854,    Hitrate: 0.999974
+        Average latency: 3.013969
+    Cache: DCache
+        Reads: 31877,    Writes 16251
+        Hits: 47970,    Hitrate: 0.996717
+        Average latency: 12.494463
+    Cache: L2-Cache
+        Reads: 163,    Writes 0
+        Hits: 0,    Hitrate: 0.000000
+        Average latency: 109.000000
+
+OOO-Resources:
+
+    Resource: ROB: use 193859   avg 28.819761
+    Resource: scheduler: use 193859   avg 8.580556
+    Resource: cache-q: use 48128   avg 14.544880
+
+Timing info:
+
+    Instructions: 193859   cycles (last value): 74522
+    IPC: 2.601366   CPI: 0.384413
+newmatmult sim default 10
+
+Caches and predictors:
+
+    Branch predictions: 27930   hits: 26999   hitrate: 0.966667
+    Return predictions: 1   hits: 1   hitrate: 1.000000
+    Cache: ICache
+        Reads: 333129,    Writes 0
+        Hits: 333124,    Hitrate: 0.999985
+        Average latency: 3.008129
+    Cache: DCache
+        Reads: 54902,    Writes 27901
+        Hits: 82576,    Hitrate: 0.997259
+        Average latency: 12.139048
+    Cache: L2-Cache
+        Reads: 232,    Writes 0
+        Hits: 0,    Hitrate: 0.000000
+        Average latency: 109.000000
+
+OOO-Resources:
+
+    Resource: ROB: use 333129   avg 28.267254
+    Resource: scheduler: use 333129   avg 8.458780
+    Resource: cache-q: use 82803   avg 14.258167
+
+Timing info:
+
+    Instructions: 333129   cycles (last value): 125243
+    IPC: 2.659861   CPI: 0.375959
+newmatmult sim default 10
+
+Caches and predictors:
+
+    Branch predictions: 44135   hits: 42874   hitrate: 0.971429
+    Return predictions: 1   hits: 1   hitrate: 1.000000
+    Cache: ICache
+        Reads: 526899,    Writes 0
+        Hits: 526894,    Hitrate: 0.999991
+        Average latency: 3.005140
+    Cache: DCache
+        Reads: 86977,    Writes 44101
+        Hits: 130770,    Hitrate: 0.997650
+        Average latency: 11.827069
+    Cache: L2-Cache
+        Reads: 313,    Writes 0
+        Hits: 0,    Hitrate: 0.000000
+        Average latency: 109.000000
+
+OOO-Resources:
+
+    Resource: ROB: use 526899   avg 27.843900
+    Resource: scheduler: use 526899   avg 8.355937
+    Resource: cache-q: use 131078   avg 14.027999
+
+Timing info:
+
+    Instructions: 526899   cycles (last value): 194689
+    IPC: 2.706362   CPI: 0.369500
+newmatmult sim default 10
+
+Caches and predictors:
+
+    Branch predictions: 65640   hits: 63999   hitrate: 0.975000
+    Return predictions: 1   hits: 1   hitrate: 1.000000
+    Cache: ICache
+        Reads: 784169,    Writes 0
+        Hits: 784164,    Hitrate: 0.999994
+        Average latency: 3.003453
+    Cache: DCache
+        Reads: 129602,    Writes 65601
+        Hits: 194801,    Hitrate: 0.997941
+        Average latency: 11.606063
+    Cache: L2-Cache
+        Reads: 407,    Writes 0
+        Hits: 0,    Hitrate: 0.000000
+        Average latency: 109.000000
+
+OOO-Resources:
+
+    Resource: ROB: use 784169   avg 27.532522
+    Resource: scheduler: use 784169   avg 8.279474
+    Resource: cache-q: use 195203   avg 13.857374
+
+Timing info:
+
+    Instructions: 784169   cycles (last value): 286166
+    IPC: 2.740259   CPI: 0.364929
+newmatmult sim default 10
+
+Caches and predictors:
+
+    Branch predictions: 93195   hits: 91124   hitrate: 0.977778
+    Return predictions: 1   hits: 1   hitrate: 1.000000
+    Cache: ICache
+        Reads: 1113939,    Writes 0
+        Hits: 1113934,    Hitrate: 0.999996
+        Average latency: 3.002431
+    Cache: DCache
+        Reads: 184277,    Writes 93151
+        Hits: 276920,    Hitrate: 0.998169
+        Average latency: 11.442942
+    Cache: L2-Cache
+        Reads: 513,    Writes 0
+        Hits: 0,    Hitrate: 0.000000
+        Average latency: 109.000000
+
+OOO-Resources:
+
+    Resource: ROB: use 1113939   avg 27.301518
+    Resource: scheduler: use 1113939   avg 8.228671
+    Resource: cache-q: use 277428   avg 13.738015
+
+Timing info:
+
+    Instructions: 1113939   cycles (last value): 402693
+    IPC: 2.766224   CPI: 0.361504
+newmatmult sim default 10
+
+Caches and predictors:
+
+    Branch predictions: 127550   hits: 124999   hitrate: 0.980000
+    Return predictions: 1   hits: 1   hitrate: 1.000000
+    Cache: ICache
+        Reads: 1525209,    Writes 0
+        Hits: 1525204,    Hitrate: 0.999997
+        Average latency: 3.001775
+    Cache: DCache
+        Reads: 252502,    Writes 127501
+        Hits: 351445,    Hitrate: 0.924848
+        Average latency: 17.108993
+    Cache: L2-Cache
+        Reads: 28563,    Writes 0
+        Hits: 27931,    Hitrate: 0.977873
+        Average latency: 11.212653
+
+OOO-Resources:
+
+    Resource: ROB: use 1525209   avg 35.920501
+    Resource: scheduler: use 1525209   avg 9.762200
+    Resource: cache-q: use 380003   avg 16.838717
+
+Timing info:
+
+    Instructions: 1525209   cycles (last value): 546868
+    IPC: 2.788989   CPI: 0.358553
