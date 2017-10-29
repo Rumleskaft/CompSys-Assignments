@@ -1,0 +1,207 @@
+newmatmult sim default 10
+
+Caches and predictors:
+
+    Branch predictions: 1110   hits: 1096   hitrate: 0.987387
+    Return predictions: 1   hits: 1   hitrate: 1.000000
+    Cache: ICache
+        Reads: 13049,    Writes 0
+        Hits: 13044,    Hitrate: 0.999617
+        Average latency: 3.198713
+    Cache: DCache
+        Reads: 2102,    Writes 1101
+        Hits: 3176,    Hitrate: 0.991570
+        Average latency: 4.348240
+    Cache: L2-Cache
+        Reads: 32,    Writes 0
+        Hits: 0,    Hitrate: 0.000000
+        Average latency: 109.000000
+
+Timing info:
+
+    Instructions: 13049   cycles (last value): 24467
+    IPC: 0.533331   CPI: 1.875010
+newmatmult sim default 10
+
+Caches and predictors:
+
+    Branch predictions: 3615   hits: 3374   hitrate: 0.933333
+    Return predictions: 1   hits: 1   hitrate: 1.000000
+    Cache: ICache
+        Reads: 42819,    Writes 0
+        Hits: 42814,    Hitrate: 0.999883
+        Average latency: 3.060557
+    Cache: DCache
+        Reads: 6977,    Writes 3601
+        Hits: 10520,    Hitrate: 0.994517
+        Average latency: 3.890497
+    Cache: L2-Cache
+        Reads: 63,    Writes 0
+        Hits: 0,    Hitrate: 0.000000
+        Average latency: 109.000000
+
+Timing info:
+
+    Instructions: 42819   cycles (last value): 78343
+    IPC: 0.546558   CPI: 1.829632
+newmatmult sim default 10
+
+Caches and predictors:
+
+    Branch predictions: 8420   hits: 7999   hitrate: 0.950000
+    Return predictions: 1   hits: 1   hitrate: 1.000000
+    Cache: ICache
+        Reads: 100089,    Writes 0
+        Hits: 100084,    Hitrate: 0.999950
+        Average latency: 3.025907
+    Cache: DCache
+        Reads: 16402,    Writes 8401
+        Hits: 24701,    Hitrate: 0.995888
+        Average latency: 3.671199
+    Cache: L2-Cache
+        Reads: 107,    Writes 0
+        Hits: 0,    Hitrate: 0.000000
+        Average latency: 109.000000
+
+Timing info:
+
+    Instructions: 100089   cycles (last value): 179004
+    IPC: 0.559144   CPI: 1.788448
+newmatmult sim default 10
+
+Caches and predictors:
+
+    Branch predictions: 16275   hits: 15624   hitrate: 0.960000
+    Return predictions: 1   hits: 1   hitrate: 1.000000
+    Cache: ICache
+        Reads: 193859,    Writes 0
+        Hits: 193854,    Hitrate: 0.999974
+        Average latency: 3.013376
+    Cache: DCache
+        Reads: 31877,    Writes 16251
+        Hits: 47970,    Hitrate: 0.996717
+        Average latency: 3.536845
+    Cache: L2-Cache
+        Reads: 163,    Writes 0
+        Hits: 0,    Hitrate: 0.000000
+        Average latency: 109.000000
+
+Timing info:
+
+    Instructions: 193859   cycles (last value): 341923
+    IPC: 0.566967   CPI: 1.763772
+newmatmult sim default 10
+
+Caches and predictors:
+
+    Branch predictions: 27930   hits: 26999   hitrate: 0.966667
+    Return predictions: 1   hits: 1   hitrate: 1.000000
+    Cache: ICache
+        Reads: 333129,    Writes 0
+        Hits: 333124,    Hitrate: 0.999985
+        Average latency: 3.007784
+    Cache: DCache
+        Reads: 54902,    Writes 27901
+        Hits: 82576,    Hitrate: 0.997259
+        Average latency: 3.448690
+    Cache: L2-Cache
+        Reads: 232,    Writes 0
+        Hits: 0,    Hitrate: 0.000000
+        Average latency: 109.000000
+
+Timing info:
+
+    Instructions: 333129   cycles (last value): 582209
+    IPC: 0.572181   CPI: 1.747698
+newmatmult sim default 10
+
+Caches and predictors:
+
+    Branch predictions: 44135   hits: 42874   hitrate: 0.971429
+    Return predictions: 1   hits: 1   hitrate: 1.000000
+    Cache: ICache
+        Reads: 526899,    Writes 0
+        Hits: 526894,    Hitrate: 0.999991
+        Average latency: 3.004921
+    Cache: DCache
+        Reads: 86977,    Writes 44101
+        Hits: 130770,    Hitrate: 0.997650
+        Average latency: 3.384734
+    Cache: L2-Cache
+        Reads: 313,    Writes 0
+        Hits: 0,    Hitrate: 0.000000
+        Average latency: 109.000000
+
+Timing info:
+
+    Instructions: 526899   cycles (last value): 914753
+    IPC: 0.576001   CPI: 1.736107
+newmatmult sim default 10
+
+Caches and predictors:
+
+    Branch predictions: 65640   hits: 63999   hitrate: 0.975000
+    Return predictions: 1   hits: 1   hitrate: 1.000000
+    Cache: ICache
+        Reads: 784169,    Writes 0
+        Hits: 784164,    Hitrate: 0.999994
+        Average latency: 3.003307
+    Cache: DCache
+        Reads: 129602,    Writes 65601
+        Hits: 194801,    Hitrate: 0.997941
+        Average latency: 3.337256
+    Cache: L2-Cache
+        Reads: 407,    Writes 0
+        Hits: 0,    Hitrate: 0.000000
+        Average latency: 109.000000
+
+Timing info:
+
+    Instructions: 784169   cycles (last value): 1354664
+    IPC: 0.578866   CPI: 1.727515
+newmatmult sim default 10
+
+Caches and predictors:
+
+    Branch predictions: 93195   hits: 91124   hitrate: 0.977778
+    Return predictions: 1   hits: 1   hitrate: 1.000000
+    Cache: ICache
+        Reads: 1113939,    Writes 0
+        Hits: 1113934,    Hitrate: 0.999996
+        Average latency: 3.002328
+    Cache: DCache
+        Reads: 184277,    Writes 93151
+        Hits: 276920,    Hitrate: 0.998169
+        Average latency: 3.299891
+    Cache: L2-Cache
+        Reads: 513,    Writes 0
+        Hits: 0,    Hitrate: 0.000000
+        Average latency: 109.000000
+
+Timing info:
+
+    Instructions: 1113939   cycles (last value): 1916833
+    IPC: 0.581135   CPI: 1.720770
+newmatmult sim default 10
+
+Caches and predictors:
+
+    Branch predictions: 127550   hits: 124999   hitrate: 0.980000
+    Return predictions: 1   hits: 1   hitrate: 1.000000
+    Cache: ICache
+        Reads: 1525209,    Writes 0
+        Hits: 1525204,    Hitrate: 0.999997
+        Average latency: 3.001700
+    Cache: DCache
+        Reads: 252502,    Writes 127501
+        Hits: 351445,    Hitrate: 0.924848
+        Average latency: 4.261863
+    Cache: L2-Cache
+        Reads: 28563,    Writes 0
+        Hits: 27931,    Hitrate: 0.977873
+        Average latency: 11.212653
+
+Timing info:
+
+    Instructions: 1525209   cycles (last value): 2866218
+    IPC: 0.532133   CPI: 1.879230
