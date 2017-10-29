@@ -142,6 +142,6 @@ heapsort_l2_entry:
 
     .pos 0x1000
 data_size:
-    .quad 10000
+    .quad 9000
 data:
-    .rand 1234 10000
+    .rand 1234 9000

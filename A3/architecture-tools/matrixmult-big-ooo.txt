@@ -1,0 +1,262 @@
+Matrixmult-Big sim n=50
+
+Caches and predictors:
+
+    Branch predictions: 127550   hits: 124999   hitrate: 0.980000
+    Return predictions: 1   hits: 1   hitrate: 1.000000
+    Cache: ICache
+        Reads: 2147709,    Writes 0
+        Hits: 2147704,    Hitrate: 0.999998
+        Average latency: 3.001360
+    Cache: DCache
+        Reads: 375002,    Writes 127501
+        Hits: 474766,    Hitrate: 0.944802
+        Average latency: 9.681583
+    Cache: L2-Cache
+        Reads: 27742,    Writes 0
+        Hits: 27110,    Hitrate: 0.977219
+        Average latency: 11.278134
+
+OOO-Resources:
+
+    Resource: ROB: use 2147709   avg 31.162509
+    Resource: scheduler: use 2147709   avg 8.915649
+    Resource: cache-q: use 502503   avg 15.779687
+
+Timing info:
+
+    Instructions: 2147709   cycles (last value): 787027
+    IPC: 2.728889   CPI: 0.366450
+Matrixmult-Big sim n=45
+
+Caches and predictors:
+
+    Branch predictions: 93195   hits: 91124   hitrate: 0.977778
+    Return predictions: 1   hits: 1   hitrate: 1.000000
+    Cache: ICache
+        Reads: 1567539,    Writes 0
+        Hits: 1567534,    Hitrate: 0.999997
+        Average latency: 3.001863
+    Cache: DCache
+        Reads: 273377,    Writes 93151
+        Hits: 366020,    Hitrate: 0.998614
+        Average latency: 8.158550
+    Cache: L2-Cache
+        Reads: 513,    Writes 0
+        Hits: 0,    Hitrate: 0.000000
+        Average latency: 109.000000
+
+OOO-Resources:
+
+    Resource: ROB: use 1567539   avg 28.493592
+    Resource: scheduler: use 1567539   avg 8.598855
+    Resource: cache-q: use 366528   avg 15.123426
+
+Timing info:
+
+    Instructions: 1567539   cycles (last value): 585977
+    IPC: 2.675086   CPI: 0.373820
+Matrixmult-Big sim n=40
+
+Caches and predictors:
+
+    Branch predictions: 65640   hits: 63999   hitrate: 0.975000
+    Return predictions: 1   hits: 1   hitrate: 1.000000
+    Cache: ICache
+        Reads: 1102569,    Writes 0
+        Hits: 1102564,    Hitrate: 0.999995
+        Average latency: 3.002649
+    Cache: DCache
+        Reads: 192002,    Writes 65601
+        Hits: 257201,    Hitrate: 0.998439
+        Average latency: 7.741362
+    Cache: L2-Cache
+        Reads: 407,    Writes 0
+        Hits: 0,    Hitrate: 0.000000
+        Average latency: 109.000000
+
+OOO-Resources:
+
+    Resource: ROB: use 1102569   avg 27.133098
+    Resource: scheduler: use 1102569   avg 8.542751
+    Resource: cache-q: use 257603   avg 14.817320
+
+Timing info:
+
+    Instructions: 1102569   cycles (last value): 403598
+    IPC: 2.731850   CPI: 0.366052
+Matrixmult-Big sim n=35
+
+Caches and predictors:
+
+    Branch predictions: 44135   hits: 42874   hitrate: 0.971429
+    Return predictions: 1   hits: 1   hitrate: 1.000000
+    Cache: ICache
+        Reads: 740049,    Writes 0
+        Hits: 740044,    Hitrate: 0.999993
+        Average latency: 3.003947
+    Cache: DCache
+        Reads: 128627,    Writes 44101
+        Hits: 172420,    Hitrate: 0.998217
+        Average latency: 8.341592
+    Cache: L2-Cache
+        Reads: 313,    Writes 0
+        Hits: 0,    Hitrate: 0.000000
+        Average latency: 109.000000
+
+OOO-Resources:
+
+    Resource: ROB: use 740049   avg 28.983974
+    Resource: scheduler: use 740049   avg 8.658512
+    Resource: cache-q: use 172728   avg 15.304380
+
+Timing info:
+
+    Instructions: 740049   cycles (last value): 280924
+    IPC: 2.634339   CPI: 0.379602
+Matrixmult-Big sim n=30
+
+Caches and predictors:
+
+    Branch predictions: 27930   hits: 26999   hitrate: 0.966667
+    Return predictions: 1   hits: 1   hitrate: 1.000000
+    Cache: ICache
+        Reads: 467229,    Writes 0
+        Hits: 467224,    Hitrate: 0.999989
+        Average latency: 3.006252
+    Cache: DCache
+        Reads: 81002,    Writes 27901
+        Hits: 108676,    Hitrate: 0.997916
+        Average latency: 8.030481
+    Cache: L2-Cache
+        Reads: 232,    Writes 0
+        Hits: 0,    Hitrate: 0.000000
+        Average latency: 109.000000
+
+OOO-Resources:
+
+    Resource: ROB: use 467229   avg 27.954538
+    Resource: scheduler: use 467229   avg 8.571726
+    Resource: cache-q: use 108903   avg 15.031468
+
+Timing info:
+
+    Instructions: 467229   cycles (last value): 175681
+    IPC: 2.659531   CPI: 0.376006
+Matrixmult-Big sim n=25
+
+Caches and predictors:
+
+    Branch predictions: 16275   hits: 15624   hitrate: 0.960000
+    Return predictions: 1   hits: 1   hitrate: 1.000000
+    Cache: ICache
+        Reads: 271359,    Writes 0
+        Hits: 271354,    Hitrate: 0.999982
+        Average latency: 3.010764
+    Cache: DCache
+        Reads: 46877,    Writes 16251
+        Hits: 62970,    Hitrate: 0.997497
+        Average latency: 8.601937
+    Cache: L2-Cache
+        Reads: 163,    Writes 0
+        Hits: 0,    Hitrate: 0.000000
+        Average latency: 109.000000
+
+OOO-Resources:
+
+    Resource: ROB: use 271359   avg 29.608412
+    Resource: scheduler: use 271359   avg 8.698750
+    Resource: cache-q: use 63128   avg 15.500982
+
+Timing info:
+
+    Instructions: 271359   cycles (last value): 105725
+    IPC: 2.566649   CPI: 0.389613
+Matrixmult-Big sim n=20
+
+Caches and predictors:
+
+    Branch predictions: 8420   hits: 7999   hitrate: 0.950000
+    Return predictions: 1   hits: 1   hitrate: 1.000000
+    Cache: ICache
+        Reads: 139689,    Writes 0
+        Hits: 139684,    Hitrate: 0.999964
+        Average latency: 3.020911
+    Cache: DCache
+        Reads: 24002,    Writes 8401
+        Hits: 32301,    Hitrate: 0.996852
+        Average latency: 7.999375
+    Cache: L2-Cache
+        Reads: 107,    Writes 0
+        Hits: 0,    Hitrate: 0.000000
+        Average latency: 109.000000
+
+OOO-Resources:
+
+    Resource: ROB: use 139689   avg 27.660023
+    Resource: scheduler: use 139689   avg 8.611931
+    Resource: cache-q: use 32403   avg 15.082739
+
+Timing info:
+
+    Instructions: 139689   cycles (last value): 53510
+    IPC: 2.610521   CPI: 0.383065
+Matrixmult-Big sim n=15
+
+Caches and predictors:
+
+    Branch predictions: 3615   hits: 3374   hitrate: 0.933333
+    Return predictions: 1   hits: 1   hitrate: 1.000000
+    Cache: ICache
+        Reads: 59469,    Writes 0
+        Hits: 59464,    Hitrate: 0.999916
+        Average latency: 3.049118
+    Cache: DCache
+        Reads: 10127,    Writes 3601
+        Hits: 13670,    Hitrate: 0.995775
+        Average latency: 9.161746
+    Cache: L2-Cache
+        Reads: 63,    Writes 0
+        Hits: 0,    Hitrate: 0.000000
+        Average latency: 109.000000
+
+OOO-Resources:
+
+    Resource: ROB: use 59469   avg 31.111033
+    Resource: scheduler: use 59469   avg 8.819284
+    Resource: cache-q: use 13728   avg 16.005390
+
+Timing info:
+
+    Instructions: 59469   cycles (last value): 24718
+    IPC: 2.405899   CPI: 0.415645
+Matrixmult-Big sim n=10
+
+Caches and predictors:
+
+    Branch predictions: 1110   hits: 1096   hitrate: 0.987387
+    Return predictions: 1   hits: 1   hitrate: 1.000000
+    Cache: ICache
+        Reads: 17949,    Writes 0
+        Hits: 17944,    Hitrate: 0.999721
+        Average latency: 3.162739
+    Cache: DCache
+        Reads: 3002,    Writes 1101
+        Hits: 4076,    Hitrate: 0.993419
+        Average latency: 9.974017
+    Cache: L2-Cache
+        Reads: 32,    Writes 0
+        Hits: 0,    Hitrate: 0.000000
+        Average latency: 109.000000
+
+OOO-Resources:
+
+    Resource: ROB: use 17949   avg 33.055602
+    Resource: scheduler: use 17949   avg 9.309934
+    Resource: cache-q: use 4103   avg 16.841092
+
+Timing info:
+
+    Instructions: 17949   cycles (last value): 7187
+    IPC: 2.497426   CPI: 0.400412
+

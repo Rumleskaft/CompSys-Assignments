@@ -1,0 +1,231 @@
+---- Data size: 10000 ----
+
+Caches and predictors:
+
+    Branch predictions: 409357   hits: 396788   hitrate: 0.969296
+    Return predictions: 15001   hits: 15001   hitrate: 1.000000
+    Cache: ICache
+        Reads: 3657196,    Writes 0
+        Hits: 3657187,    Hitrate: 0.999998
+        Average latency: 3.000949
+    Cache: DCache
+        Reads: 793690,    Writes 283249
+        Hits: 1035901,    Hitrate: 0.961894
+        Average latency: 3.780390
+    Cache: L2-Cache
+        Reads: 41047,    Writes 0
+        Hits: 38536,    Hitrate: 0.938826
+        Average latency: 15.117378
+
+Timing info:
+
+    Instructions: 3657196   cycles (last value): 4195168
+    IPC: 0.871764   CPI: 1.147100
+---- Data size: 9000 ----
+
+Caches and predictors:
+
+    Branch predictions: 364166   hits: 352823   hitrate: 0.968852
+    Return predictions: 13501   hits: 13501   hitrate: 1.000000
+    Cache: ICache
+        Reads: 3253225,    Writes 0
+        Hits: 3253216,    Hitrate: 0.999997
+        Average latency: 3.001067
+    Cache: DCache
+        Reads: 705806,    Writes 252123
+        Hits: 923739,    Hitrate: 0.964308
+        Average latency: 3.754845
+    Cache: L2-Cache
+        Reads: 34199,    Writes 0
+        Hits: 31938,    Hitrate: 0.933887
+        Average latency: 15.611304
+
+Timing info:
+
+    Instructions: 3253225   cycles (last value): 3714672
+    IPC: 0.875777   CPI: 1.141843
+---- Data size: 8000 ----
+
+Caches and predictors:
+
+    Branch predictions: 319349   hits: 309294   hitrate: 0.968514
+    Return predictions: 12001   hits: 12001   hitrate: 1.000000
+    Cache: ICache
+        Reads: 2852528,    Writes 0
+        Hits: 2852519,    Hitrate: 0.999997
+        Average latency: 3.001217
+    Cache: DCache
+        Reads: 618670,    Writes 221185
+        Hits: 812295,    Hitrate: 0.967185
+        Average latency: 3.724302
+    Cache: L2-Cache
+        Reads: 27569,    Writes 0
+        Hits: 25558,    Hitrate: 0.927056
+        Average latency: 16.294425
+
+Timing info:
+
+    Instructions: 2852528   cycles (last value): 3238971
+    IPC: 0.880690   CPI: 1.135474
+
+---- Data size: 7000 ----
+
+Caches and predictors:
+
+    Branch predictions: 275826   hits: 267018   hitrate: 0.968067
+    Return predictions: 10501   hits: 10501   hitrate: 1.000000
+    Cache: ICache
+        Reads: 2463457,    Writes 0
+        Hits: 2463448,    Hitrate: 0.999996
+        Average latency: 3.001409
+    Cache: DCache
+        Reads: 534120,    Writes 191099
+        Hits: 703341,    Hitrate: 0.969833
+        Average latency: 3.696392
+    Cache: L2-Cache
+        Reads: 21887,    Writes 0
+        Hits: 20126,    Hitrate: 0.919541
+        Average latency: 17.045872
+
+Timing info:
+
+    Instructions: 2463457   cycles (last value): 2783127
+    IPC: 0.885140   CPI: 1.129765
+---- Data size: 6000 ----
+
+Caches and predictors:
+
+    Branch predictions: 232570   hits: 225007   hitrate: 0.967481
+    Return predictions: 9001   hits: 9001   hitrate: 1.000000
+    Cache: ICache
+        Reads: 2076911,    Writes 0
+        Hits: 2076902,    Hitrate: 0.999996
+        Average latency: 3.001672
+    Cache: DCache
+        Reads: 450120,    Writes 161251
+        Hits: 595096,    Hitrate: 0.973380
+        Average latency: 3.658760
+    Cache: L2-Cache
+        Reads: 16284,    Writes 0
+        Hits: 14773,    Hitrate: 0.907210
+        Average latency: 18.279047
+
+Timing info:
+
+    Instructions: 2076911   cycles (last value): 2330671
+    IPC: 0.891121   CPI: 1.122181
+---- Data size: 5000 ----
+
+Caches and predictors:
+
+    Branch predictions: 189945   hits: 183631   hitrate: 0.966759
+    Return predictions: 7501   hits: 7501   hitrate: 1.000000
+    Cache: ICache
+        Reads: 1696102,    Writes 0
+        Hits: 1696093,    Hitrate: 0.999995
+        Average latency: 3.002047
+    Cache: DCache
+        Reads: 367368,    Writes 131881
+        Hits: 487947,    Hitrate: 0.977362
+        Average latency: 3.617316
+    Cache: L2-Cache
+        Reads: 11311,    Writes 0
+        Hits: 10050,    Hitrate: 0.888516
+        Average latency: 20.148440
+
+Timing info:
+
+    Instructions: 1696102   cycles (last value): 1888882
+    IPC: 0.897940   CPI: 1.113661
+---- Data size: 4000 ----
+
+Caches and predictors:
+
+    Branch predictions: 147744   hits: 142662   hitrate: 0.965603
+    Return predictions: 6001   hits: 6001   hitrate: 1.000000
+    Cache: ICache
+        Reads: 1318867,    Writes 0
+        Hits: 1318858,    Hitrate: 0.999993
+        Average latency: 3.002633
+    Cache: DCache
+        Reads: 285462,    Writes 102635
+        Hits: 381199,    Hitrate: 0.982226
+        Average latency: 3.568107
+    Cache: L2-Cache
+        Reads: 6907,    Writes 0
+        Hits: 5896,    Hitrate: 0.853627
+        Average latency: 23.637324
+
+Timing info:
+
+    Instructions: 1318867   cycles (last value): 1455954
+    IPC: 0.905844   CPI: 1.103943
+---- Data size: 3000 ----
+
+Caches and predictors:
+
+    Branch predictions: 107262   hits: 103398   hitrate: 0.963976
+    Return predictions: 4501   hits: 4501   hitrate: 1.000000
+    Cache: ICache
+        Reads: 957259,    Writes 0
+        Hits: 957250,    Hitrate: 0.999991
+        Average latency: 3.003627
+    Cache: DCache
+        Reads: 207000,    Writes 74631
+        Hits: 278605,    Hitrate: 0.989255
+        Average latency: 3.494324
+    Cache: L2-Cache
+        Reads: 3035,    Writes 0
+        Hits: 2274,    Hitrate: 0.749259
+        Average latency: 34.074135
+
+Timing info:
+
+    Instructions: 957259   cycles (last value): 1042806
+    IPC: 0.917965   CPI: 1.089367
+---- Data size: 2000 ----
+
+Caches and predictors:
+
+    Branch predictions: 67866   hits: 65296   hitrate: 0.962131
+    Return predictions: 3001   hits: 3001   hitrate: 1.000000
+    Cache: ICache
+        Reads: 605427,    Writes 0
+        Hits: 605418,    Hitrate: 0.999985
+        Average latency: 3.005735
+    Cache: DCache
+        Reads: 130720,    Writes 47339
+        Hits: 177557,    Hitrate: 0.997181
+        Average latency: 3.417756
+    Cache: L2-Cache
+        Reads: 511,    Writes 0
+        Hits: 0,    Hitrate: 0.000000
+        Average latency: 109.000000
+
+Timing info:
+
+    Instructions: 605427   cycles (last value): 650487
+    IPC: 0.930729   CPI: 1.074427
+---- Data size: 1000 ----
+
+Caches and predictors:
+
+    Branch predictions: 30897   hits: 29555   hitrate: 0.956565
+    Return predictions: 1501   hits: 1501   hitrate: 1.000000
+    Cache: ICache
+        Reads: 275342,    Writes 0
+        Hits: 275333,    Hitrate: 0.999967
+        Average latency: 3.012610
+    Cache: DCache
+        Reads: 59270,    Writes 21633
+        Hits: 80651,    Hitrate: 0.996885
+        Average latency: 3.461599
+    Cache: L2-Cache
+        Reads: 261,    Writes 0
+        Hits: 0,    Hitrate: 0.000000
+        Average latency: 109.000000
+
+Timing info:
+
+    Instructions: 275342   cycles (last value): 299337
+    IPC: 0.919840   CPI: 1.087146
